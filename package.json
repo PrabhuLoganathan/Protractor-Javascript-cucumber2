@@ -1,0 +1,38 @@
+{
+  "name": "protractor-tutorial",
+  "version": "1.0.0",
+  "description": "Protractor Tutorials",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "eslintConfig": {
+    "env": {
+      "protractor": true,
+      "jasmine": true,
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
+    }
+  }
+}
