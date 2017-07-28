@@ -26,8 +26,32 @@ webdriver-manager start
 
 ## Running Tests
 
-Now run the test with
+Now run the test in the root directory with
 
 ```
 protractor protractor.conf.js
+```
+
+## Jasmine
+
+In order to run the Jasmine tests in the `jasmine` directory, you will need to:
+
+`npm install` OR `yarn`
+
+Start the karma server:
+
+```
+karma start
+```
+
+And in another terminal in the `jasmine` directory
+
+```
+karma run karma.conf.js
+```
+
+## linting
+
+```
+npm install --global eslint
 ```
